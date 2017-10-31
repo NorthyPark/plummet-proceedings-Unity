@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats:
-    maxHealth: 100
+    maxHealth: 150
   fallBoundary: -9999999
   statusIndicator: {fileID: 0}
 --- !u!114 &602813450

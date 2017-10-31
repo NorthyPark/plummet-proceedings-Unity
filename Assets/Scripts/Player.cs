@@ -56,8 +56,12 @@ public class Player : MonoBehaviour
         {
             GameMaster.KillPlayer(this);
         }
-
-        //statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
     }
+
+    void OnCollisionEnter2D(Collision2D _colInfo)
+        {
+
+            DamagePlayer(25);
+        }
 
 }
